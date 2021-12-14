@@ -18,10 +18,10 @@ public class CalculadoraLogica {
 
 	public static void main(String[] args) {
 
-		elegirMenu();// iniciamos el programa llamando al mÈtodo elegirMenu
+		elegirMenu();// iniciamos el programa llamando al m√©todo elegirMenu
 
 	}
-
+//Metodo para elegir el primer menu
 	public static void elegirMenu() {
 		int opcionmenu = 0;
 		do {
@@ -29,8 +29,8 @@ public class CalculadoraLogica {
 			try {
 				System.out.println("           MENU");
 				System.out.println("========================");
-				System.out.println("1-Menu lÛgico");
-				System.out.println("2-Menu aritmÈtico");
+				System.out.println("1-Menu l√≥gico");
+				System.out.println("2-Menu aritm√©tico");
 				System.out.println("3-Salir");
 				System.out.println("========================");
 				opcionmenu = Integer.parseInt(br.readLine());
@@ -237,7 +237,7 @@ public class CalculadoraLogica {
 	public static void and() {
 		try {
 
-			System.out.println("Elige los operandos lÛgicos:");
+			System.out.println("Elige los operandos l√≥gicos:");
 			do {
 
 				System.out.println("Primero:");
@@ -245,7 +245,7 @@ public class CalculadoraLogica {
 				numero1 = Integer.parseInt(br.readLine());
 				if (numero1 != 0 && numero1 != 1) {
 					System.err.println(
-							"Debes de introducir operadores logicos v·lidos");
+							"Debes de introducir operadores logicos v√°lidos");
 				}
 			} while (numero1 != 1 && numero1 != 0);
 
@@ -255,7 +255,7 @@ public class CalculadoraLogica {
 				numero2 = Integer.parseInt(br.readLine());
 				if (numero2 != 0 && numero2 != 1) {
 					System.err.println(
-							"Debes de introducir operadores logicos v·lidos");
+							"Debes de introducir operadores logicos v√°lidos");
 				}
 			} while (numero2 != 1 && numero2 != 0);
 			if (numero1 == 1 && numero2 == 1) {
@@ -278,7 +278,7 @@ public class CalculadoraLogica {
 	public static void nor() {
 		try {
 
-			System.out.println("Elige los operandos lÛgicos:");
+			System.out.println("Elige los operandos l√≥gicos:");
 			do {
 
 				System.out.println("Primero:");
@@ -286,7 +286,7 @@ public class CalculadoraLogica {
 				numero1 = Integer.parseInt(br.readLine());
 				if (numero1 != 0 && numero1 != 1) {
 					System.err.println(
-							"Debes de introducir operadores logicos v·lidos");
+							"Debes de introducir operadores logicos v√°lidos");
 				}
 			} while (numero1 != 1 && numero1 != 0);
 
@@ -296,7 +296,7 @@ public class CalculadoraLogica {
 				numero2 = Integer.parseInt(br.readLine());
 				if (numero2 != 0 && numero2 != 1) {
 					System.err.println(
-							"Debes de introducir operadores logicos v·lidos");
+							"Debes de introducir operadores logicos v√°lidos");
 				}
 			} while (numero2 != 1 && numero2 != 0);
 			if (numero1 == 0 && numero2 == 0) {
@@ -325,7 +325,7 @@ public class CalculadoraLogica {
 				numero1 = Integer.parseInt(br.readLine());
 				if (numero1 != 0 && numero1 != 1) {
 					System.err.println(
-							"Debes de introducir operadores logicos v·lidos");
+							"Debes de introducir operadores logicos v√°lidos");
 				}
 			} while (numero1 != 1 && numero1 != 0);
 			if (numero1 == 0) {
